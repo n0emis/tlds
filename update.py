@@ -25,3 +25,6 @@ target_dir = 'tlds'
 
 with open(os.path.join(target_dir, '_data.py'), 'w') as f:
     f.write('tld_set = set(%s)\n' % (tlds, ))
+
+with open('version.py', 'w') as f:
+    f.write('version = %s\n' % version)

@@ -1,9 +1,5 @@
-import os
-import re
-import sys
-from distutils.command.build_py import build_py
-
 from setuptools import setup, find_packages
+from version import version
 
 
 setup(name='tlds',
